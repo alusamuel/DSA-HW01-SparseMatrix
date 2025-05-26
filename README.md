@@ -2,7 +2,6 @@
 
 This project implements a `SparseMatrix` class in Python that supports **loading**, **saving**, **addition**, **subtraction**, and **multiplication** of sparse matrices. It also includes a **text-based loader animation** for long operations and a command-line interface to demonstrate the functionality.
 
----
 
 ## Features
 
@@ -13,7 +12,6 @@ This project implements a `SparseMatrix` class in Python that supports **loading
 - Text-based loader animation using threading.
 - Error handling for file I/O and dimension mismatches.
 
----
 
 ## File Structure
 
@@ -30,7 +28,6 @@ This project implements a `SparseMatrix` class in Python that supports **loading
 
 ```
 
----
 
 ## Matrix File Format
 
@@ -49,7 +46,6 @@ cols=3
 - The first two lines define the number of rows and columns.
 - The remaining lines represent non-zero values in the format `(row, col, value)`.
 
----
 
 ## How to Run
 
@@ -71,7 +67,6 @@ The program will:
 * Display the results in the terminal.
 * Save the results to respective output text files.
 
----
 
 ## Example Output
 
@@ -91,7 +86,6 @@ Addition Result:
 (2, 2, 3)
 ```
 
----
 
 ## Dependencies
 
@@ -102,24 +96,20 @@ This project uses only built-in Python libraries:
 * `time`
 * `threading`
 
----
 
 ## Notes
 
 * Multiplication requires the number of columns in Matrix 1 to match the number of rows in Matrix 2.
 * All results are saved to `.txt` files in the current working directory.
 
----
 
 ## License
 
 This project is open-source and free to use under the MIT License.
 
----
 
 ## Author
 
 Samuel Rurangamirwa
 [GitHub](https://github.com/alusamuel) | [LinkedIn](https://linkedin.com/in/samuelrurangamirwa)
 
----
