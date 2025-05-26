@@ -1,4 +1,3 @@
-```markdown
 # Sparse Matrix Operations in Python
 
 This project implements a `SparseMatrix` class in Python that supports **loading**, **saving**, **addition**, **subtraction**, and **multiplication** of sparse matrices. It also includes a **text-based loader animation** for long operations and a command-line interface to demonstrate the functionality.
